@@ -23,7 +23,7 @@ A custom cell with blured background
 ## Screenshot
 ### iPhone
 
-![](scrcell.png) 
+![](https://github.com/petrosDemetrakopoulos/PSDCell/master/scrcell.png) 
 ##License
 The MIT License (MIT)
 
