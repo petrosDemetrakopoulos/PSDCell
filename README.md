@@ -3,8 +3,13 @@ A custom cell with blured background
 
 ## Usage
 1. Copy PSDCell.swift in your project
+<<<<<<< Updated upstream
 <br />2.Link the prototype cell of your table view from the storyboard with the PSDCell class.
 <br />3.When you create each cell on your table view class just set a background image, a circular image, a title and a subtitle as shown below.
+=======
+2.Link the prototype cell of your table view from the storyboard with the PSDCell class.
+3.When you create each cell on your table view class just set a background image, a circular image, a title and a subtitle as shown below.
+>>>>>>> Stashed changes
 ```Swift
  override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! PSDCell
@@ -23,7 +28,11 @@ A custom cell with blured background
 ## Screenshot
 ### iPhone
 
+<<<<<<< Updated upstream
 ![](https://github.com/petrosDemetrakopoulos/PSDCell/master/scrcell.png) 
+=======
+![](scrcell.png) 
+>>>>>>> Stashed changes
 ##License
 The MIT License (MIT)
 

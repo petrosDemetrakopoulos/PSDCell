@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F9BB58D1C1E3A080032A95D /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB58A1C1E3A080032A95D /* back1.png */; };
+		8F9BB58E1C1E3A080032A95D /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB58B1C1E3A080032A95D /* back2.png */; };
+		8F9BB58F1C1E3A080032A95D /* back3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB58C1C1E3A080032A95D /* back3.png */; };
+		8F9BB5931C1E428A0032A95D /* Sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB5921C1E428A0032A95D /* Sea.jpg */; };
+		8F9BB5951C1E43EA0032A95D /* elvis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB5941C1E43EA0032A95D /* elvis.jpg */; };
+		8F9BB5971C1E44F50032A95D /* ballon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB5961C1E44F50032A95D /* ballon.png */; };
+		8F9BB5991C1E466F0032A95D /* adele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB5981C1E466F0032A95D /* adele.jpg */; };
+		8F9BB59A1C1E466F0032A95D /* adele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F9BB5981C1E466F0032A95D /* adele.jpg */; };
 		8FFA353D1C1DF6F90003CBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA353C1C1DF6F90003CBBC /* AppDelegate.swift */; };
 		8FFA353F1C1DF6F90003CBBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA353E1C1DF6F90003CBBC /* ViewController.swift */; };
 		8FFA35421C1DF6F90003CBBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA35401C1DF6F90003CBBC /* Main.storyboard */; };
@@ -14,6 +22,7 @@
 		8FFA35471C1DF6F90003CBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA35451C1DF6F90003CBBC /* LaunchScreen.storyboard */; };
 		8FFA35521C1DF6FA0003CBBC /* PSDCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA35511C1DF6FA0003CBBC /* PSDCellTests.swift */; };
 		8FFA355D1C1DF6FA0003CBBC /* PSDCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA355C1C1DF6FA0003CBBC /* PSDCellUITests.swift */; };
+		8FFA356B1C1DF7D50003CBBC /* PSDCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA356A1C1DF7D50003CBBC /* PSDCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F9BB58A1C1E3A080032A95D /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1.png; sourceTree = "<group>"; };
+		8F9BB58B1C1E3A080032A95D /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
+		8F9BB58C1C1E3A080032A95D /* back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back3.png; sourceTree = "<group>"; };
+		8F9BB5921C1E428A0032A95D /* Sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sea.jpg; sourceTree = "<group>"; };
+		8F9BB5941C1E43EA0032A95D /* elvis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elvis.jpg; sourceTree = "<group>"; };
+		8F9BB5961C1E44F50032A95D /* ballon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballon.png; sourceTree = "<group>"; };
+		8F9BB5981C1E466F0032A95D /* adele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adele.jpg; sourceTree = "<group>"; };
 		8FFA35391C1DF6F90003CBBC /* PSDCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSDCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFA353C1C1DF6F90003CBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FFA353E1C1DF6F90003CBBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,7 @@
 		8FFA35581C1DF6FA0003CBBC /* PSDCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSDCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFA355C1C1DF6FA0003CBBC /* PSDCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSDCellUITests.swift; sourceTree = "<group>"; };
 		8FFA355E1C1DF6FA0003CBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FFA356A1C1DF7D50003CBBC /* PSDCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSDCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +116,16 @@
 			children = (
 				8FFA353C1C1DF6F90003CBBC /* AppDelegate.swift */,
 				8FFA353E1C1DF6F90003CBBC /* ViewController.swift */,
+				8FFA356A1C1DF7D50003CBBC /* PSDCell.swift */,
+				8F9BB5941C1E43EA0032A95D /* elvis.jpg */,
 				8FFA35401C1DF6F90003CBBC /* Main.storyboard */,
 				8FFA35431C1DF6F90003CBBC /* Assets.xcassets */,
+				8F9BB58A1C1E3A080032A95D /* back1.png */,
+				8F9BB58B1C1E3A080032A95D /* back2.png */,
+				8F9BB58C1C1E3A080032A95D /* back3.png */,
+				8F9BB5921C1E428A0032A95D /* Sea.jpg */,
+				8F9BB5961C1E44F50032A95D /* ballon.png */,
+				8F9BB5981C1E466F0032A95D /* adele.jpg */,
 				8FFA35451C1DF6F90003CBBC /* LaunchScreen.storyboard */,
 				8FFA35481C1DF6F90003CBBC /* Info.plist */,
 			);
@@ -230,8 +255,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FFA35471C1DF6F90003CBBC /* LaunchScreen.storyboard in Resources */,
+				8F9BB58D1C1E3A080032A95D /* back1.png in Resources */,
 				8FFA35441C1DF6F90003CBBC /* Assets.xcassets in Resources */,
+				8F9BB5931C1E428A0032A95D /* Sea.jpg in Resources */,
+				8F9BB5971C1E44F50032A95D /* ballon.png in Resources */,
+				8F9BB5991C1E466F0032A95D /* adele.jpg in Resources */,
+				8F9BB58E1C1E3A080032A95D /* back2.png in Resources */,
+				8F9BB58F1C1E3A080032A95D /* back3.png in Resources */,
 				8FFA35421C1DF6F90003CBBC /* Main.storyboard in Resources */,
+				8F9BB5951C1E43EA0032A95D /* elvis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9BB59A1C1E466F0032A95D /* adele.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +291,7 @@
 			files = (
 				8FFA353F1C1DF6F90003CBBC /* ViewController.swift in Sources */,
 				8FFA353D1C1DF6F90003CBBC /* AppDelegate.swift in Sources */,
+				8FFA356B1C1DF7D50003CBBC /* PSDCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +516,7 @@
 				8FFA35631C1DF6FA0003CBBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FFA35641C1DF6FA0003CBBC /* Build configuration list for PBXNativeTarget "PSDCellTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +525,7 @@
 				8FFA35661C1DF6FA0003CBBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FFA35671C1DF6FA0003CBBC /* Build configuration list for PBXNativeTarget "PSDCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +534,7 @@
 				8FFA35691C1DF6FA0003CBBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
