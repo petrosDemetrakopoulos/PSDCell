@@ -27,6 +27,8 @@ A custom cell with blured background
 
 ![](https://github.com/petrosDemetrakopoulos/PSDCell/master/scrcell.png) 
 ![](scrcell.png) 
+
+
 ##License
 The MIT License (MIT)
 
