@@ -48,9 +48,6 @@ class ViewController: UITableViewController{
         // Return the number of sections.
         return 1
     }
-     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
-    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
