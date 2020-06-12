@@ -12,7 +12,7 @@ class ViewController: UITableViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tableView.register(PSDCell.self, forCellReuseIdentifier: "reuseIdentifier")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,12 +21,11 @@ class ViewController: UITableViewController{
         // Dispose of any resources that can be recreated.
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! PSDCell
-        
-        cell.selectionStyle = UITableViewCellSelectionStyle.None
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCell(withIdentifier:"reuseIdentifier", for: indexPath) as! PSDCell
+        cell.selectionStyle = UITableViewCellSelectionStyle.none
         if indexPath.row == 0{
-        cell.background.image = UIImage(named: "back1.png")
+            cell.background.image = UIImage(named: "back1.png")
             cell.title.text = "Adele"
             cell.subtitle.text = "singer"
             cell.circular.image = UIImage(named: "adele.jpg")
@@ -35,26 +34,25 @@ class ViewController: UITableViewController{
             cell.title.text = "Elvis Presley"
             cell.subtitle.text = "Pop star"
             cell.circular.image = UIImage(named: "elvis.jpg")
-        }else{
+        } else {
             cell.background.image = UIImage(named: "sea.jpg")
-             cell.circular.image = UIImage(named: "ballon.png")
+            cell.circular.image = UIImage(named: "ballon.png")
             cell.title.text = "Balloon"
             cell.subtitle.text = "Party"
         }
-    
         
         return cell
     }
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
         return 1
     }
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
 
